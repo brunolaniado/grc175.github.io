@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: #666666;
+}
+
+a{
+		display: block;
+		width: 120px;
+		background-color: #FFFFFF; 
+		color: #000000;
+		text-decoration: none;
+		text-align: center;
+		font-weight: 800;
+		text-transform: uppercase;
+		padding: 10px;
+		
+}
+
+a:hover, a:active {
+		background-color: #949494;
+		}
+
+#container {
+	background: #666666;
+	width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#container li {
+	float: left;
+}
+
+#dropdown li {
+	float: none;
+}
+
+#logo {
+	margin-left: -80px;
+	margin-top: -130px;
+	margin-right: 500px;
+	float: left;
+}
+
+#content {
+	padding: 10px;
+}
+
+#header {
+	background-color: #E8E6E7;
+	color: black;
+	text-align: center;
+	padding: 90px;
+	width: 1200px;
+} 
+
+#main {
+	width: 1200px;
+	background-color: #ED4649;
+}
+
+#container ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#nav {
+	
+	padding-left: 10px;
+	width: 900px;
+}
+
+
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+
+#nav .selected {
+	font-weight: bold;
+}
+
+#nav ul li a {
+	
+	text-decoration: none;
+}
+
+
+#nav ul li ul {
+	display: none;
+	position: absolute;
+	padding: 10px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+#nav ul li:hover ul {
+	display: block;
+	position: absolute;
+	padding: 0px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+#nav ul li ul li {
+   float: none;
+	height: 20px;
+	padding: 8px 14px;
+	
+}
+
+#nav ul li ul li a {
+	width: 180px;
+	border-radius: 4px;
+}
+
+#nav ul li ul li a:hover {
+	background-color: #BEBEBE;
+	color: white;
+	
+}
+
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: #AEAEAE;
+	color: white;
+	text-align: right;
+	margin-top:25px;
+	
+}
